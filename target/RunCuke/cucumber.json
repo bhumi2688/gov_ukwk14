@@ -1,0 +1,468 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 11876490800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "an Australian Coming to Uk For Tourism",
+        "description": "",
+        "id": "visa-confirmation-test;an-australian-coming-to-uk-for-tourism",
+        "after": [
+          {
+            "result": {
+              "duration": 1705507500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 276347400,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is on home page",
+            "match": {
+              "location": "AusVisaSteps.userIsOnHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 268409000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User click on accept cookies",
+            "match": {
+              "location": "AusVisaSteps.userClickOnAcceptCookies()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1005413400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User click on start button",
+            "match": {
+              "location": "AusVisaSteps.userClickOnStartButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 105226000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User select a Nationality Australia",
+            "match": {
+              "location": "AusVisaSteps.user_select_a_Nationality_Australia()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 894585700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User click on Continue Button",
+            "match": {
+              "location": "AusVisaSteps.userClickOnContinueButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 136532500,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User select Tourism",
+            "match": {
+              "location": "AusVisaSteps.user_select_Tourism()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 874099200,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User click on Continue Button",
+            "match": {
+              "location": "AusVisaSteps.userClickOnContinueButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 80406100,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User should verify result \"You will not need a visa to come to the UK\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "You will not need a visa to come to the UK",
+                  "offset": 27
+                }
+              ],
+              "location": "AusVisaSteps.userShouldVerifyResult(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3184044900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "a Chilean coming to Uk For Work and Plans On Staying For Longer Than Six Months",
+        "description": "",
+        "id": "visa-confirmation-test;a-chilean-coming-to-uk-for-work-and-plans-on-staying-for-longer-than-six-months",
+        "after": [
+          {
+            "result": {
+              "duration": 898473100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 59700,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User is on home page",
+            "match": {
+              "location": "AusVisaSteps.userIsOnHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 164948400,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User click on accept cookies",
+            "match": {
+              "location": "AusVisaSteps.userClickOnAcceptCookies()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1162692900,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User click on start button",
+            "match": {
+              "location": "AusVisaSteps.userClickOnStartButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 83266300,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User select nationality Chile",
+            "match": {
+              "location": "AusVisaSteps.userSelectNationalityChile()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 776878800,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User click on Continue Button",
+            "match": {
+              "location": "AusVisaSteps.userClickOnContinueButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 88100900,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "User click on Work,academic visit or business",
+            "match": {
+              "location": "AusVisaSteps.userClickOnWorkAcademicVisitOrBusiness()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 887064600,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "User click on Continue Button",
+            "match": {
+              "location": "AusVisaSteps.userClickOnContinueButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 136844100,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "User select intendent to stay for longer than 6 months",
+            "match": {
+              "arguments": [
+                {
+                  "val": "6",
+                  "offset": 46
+                }
+              ],
+              "location": "AusVisaSteps.userSelectIntendentToStayForLongerThanMonths(int)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 747709400,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "User click on Continue Button",
+            "match": {
+              "location": "AusVisaSteps.userClickOnContinueButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 154870700,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "User select having plan to work for Health and Care professional",
+            "match": {
+              "location": "AusVisaSteps.userSelectHavingPlanToWorkForHealthAndCareProfessional()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 927691700,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "User click on Continue Button",
+            "match": {
+              "location": "AusVisaSteps.userClickOnContinueButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 53578100,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "User should be able to verify text \"You need a visa to work in health and care\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "You need a visa to work in health and care",
+                  "offset": 36
+                }
+              ],
+              "location": "AusVisaSteps.userShouldBeAbleToVerifyText(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3167420100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 29,
+        "name": "a Columbian National Coming To UK to join A Partner For a Long Stay",
+        "description": "",
+        "id": "visa-confirmation-test;a-columbian-national-coming-to-uk-to-join-a-partner-for-a-long-stay",
+        "after": [
+          {
+            "result": {
+              "duration": 920683400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 64700,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "User is on home page",
+            "match": {
+              "location": "AusVisaSteps.userIsOnHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 234251100,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "User click on accept cookies",
+            "match": {
+              "location": "AusVisaSteps.userClickOnAcceptCookies()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 826533600,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "User click on start button",
+            "match": {
+              "location": "AusVisaSteps.userClickOnStartButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 84621800,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "User select natinoality Colombia",
+            "match": {
+              "location": "AusVisaSteps.userSelectNatinoalityColombia()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 572217100,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "User click on Continue Button",
+            "match": {
+              "location": "AusVisaSteps.userClickOnContinueButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 108833400,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "User select reason join partner or family for a long stay",
+            "match": {
+              "location": "AusVisaSteps.userSelectReasonJoinPartnerOrFamilyForALongStay()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 566858900,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "User click on Continue Button",
+            "match": {
+              "location": "AusVisaSteps.userClickOnContinueButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 54034800,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "User to verify message \"You may need a visa\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "You may need a visa",
+                  "offset": 24
+                }
+              ],
+              "location": "AusVisaSteps.userToVerifyMessage(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Visa Confirmation Test",
+    "description": "",
+    "id": "visa-confirmation-test",
+    "keyword": "Feature",
+    "uri": "src/test/java/resources/featurefile/VisaConfirmation.feature"
+  }
+]
